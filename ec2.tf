@@ -11,7 +11,6 @@ resource "aws_instance" "sample" {
 }
 
 resource "aws_security_group" "allow-ssh" {
-  # ... other configuration ...
   
   ingress {
     from_port        = 22
